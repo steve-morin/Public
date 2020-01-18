@@ -9,14 +9,14 @@ A senior business technology professional with expertise in engineering and supp
 
 
 # QUALIFICATIONS  
-	- Bachelor of Science, Computer Science  
-	- Master of Business Administration (Management Consulting)  
-	- Certified Management Consultant (CMC)  
-	- Project Management Professional (PMP)  
-	- Agile Certified Practitioner (PMI-ACP)   
+* Bachelor of Science, Computer Science  
+* Master of Business Administration (Management Consulting)  
+* Certified Management Consultant (CMC)  
+* Project Management Professional (PMP)  
+* Agile Certified Practitioner (PMI-ACP)   
 
 
-TECHNOLOGIES/SKILLS
+# TECHNOLOGIES/SKILLS
 	- Programming languages: C, C++, C#, Java, Python, SQL
 	- Database: SQL Server, Oracle, HANA
 	Ø Development Tools: Visual Studio, Visual Studio Code, Eclipse, DevOps, TeamCity, Jenkins
@@ -36,5 +36,5 @@ TECHNOLOGIES/SKILLS
 	Ø Math and Statistics: Linear Algebra, Statistics, Calculus
 	Ø Methodologies and Frameworks: Agile, Scrum, RUP, Kanban, Lean, DevOps, Test Driven Development
 	
-INTANGIBLES
+# INTANGIBLES
 Passionate, determined, self-motivated, adaptable to fast paced work environments, strong communication and presentation skills, highly collaborative, inquisitive/curious personality, disciplined, driven to learn, comfortable with ambiguity, and goal-oriented team player. 
