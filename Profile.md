@@ -17,24 +17,24 @@ A senior business technology professional with expertise in engineering and supp
 
 
 # TECHNOLOGIES/SKILLS
-Programming languages: C, C++, C#, Java, Python, SQL  
-Database: SQL Server, Oracle, HANA  
-Development Tools: Visual Studio, Visual Studio Code, Eclipse, DevOps, TeamCity, Jenkins  
-Project Tools: MS Project, Target Process, Trello  
-Business Intelligence and Analytics: ETL, data warehouse design, reporting, KPI, metrics, visualization. Tableau, Spotfire, SSRS, Business Objects, Power BI, Excel  
-Integration: Enterprise service bus, service oriented architectures, ETL, REST, SOAP, Mulesoft, Oracle Fusion, SSIS  
-Data Historians and related tools: Osisoft PI, PI Asset Framework, Dataparc, Parcview, Honeywell PHD  
-IOT & SCADA: Modbus, Bristol BSAP, OPC. MQTT  
-Asynchronous Messaging  
-Operating Systems: Comfortable with Unix, Linux, Windows platforms  
-ITIL service delivery  
-Analytics experience applying machine learning concepts and tools, data visualization, and statistical analysis, optimization algorithms, simulations  
-Big Data: Azure Data lake, Hadoop, Cassandra, Apache Spark, Azure Databricks, Cloudera, mongoDB  
-Experience with AWS (EC2, S3) Infrastructure as a Service  
-Experience with Azure Infrastructure as a Service  
-Azure: Data Factory, Azure SQL DB, Azure Datalake, Azure IOT Hub, Azure Event Hub, Azure DevOps, Azure Databricks, App Service, Web Service  
-Math and Statistics: Linear Algebra, Statistics, Calculus  
-Methodologies and Frameworks: Agile, Scrum, RUP, Kanban, Lean, DevOps, Test Driven Development  
+➢ Programming languages: C, C++, C#, Java, Python, SQL  
+➢ Database: SQL Server, Oracle, HANA  
+➢ Development Tools: Visual Studio, Visual Studio Code, Eclipse, DevOps, TeamCity, Jenkins  
+➢ Project Tools: MS Project, Target Process, Trello  
+➢ Business Intelligence and Analytics: ETL, data warehouse design, reporting, KPI, metrics, visualization. Tableau, Spotfire, SSRS, ➢ Business Objects, Power BI, Excel  
+➢ Integration: Enterprise service bus, service oriented architectures, ETL, REST, SOAP, Mulesoft, Oracle Fusion, SSIS  
+➢ Data Historians and related tools: Osisoft PI, PI Asset Framework, Dataparc, Parcview, Honeywell PHD  
+➢ IOT & SCADA: Modbus, Bristol BSAP, OPC. MQTT  
+➢ Asynchronous Messaging  
+➢ Operating Systems: Comfortable with Unix, Linux, Windows platforms  
+➢ ITIL service delivery  
+➢ Analytics experience applying machine learning concepts and tools, data visualization, and statistical analysis, optimization algorithms, simulations  
+➢ Big Data: Azure Data lake, Hadoop, Cassandra, Apache Spark, Azure Databricks, Cloudera, mongoDB  
+➢ Experience with AWS (EC2, S3) Infrastructure as a Service  
+➢ Experience with Azure Infrastructure as a Service  
+➢ Azure: Data Factory, Azure SQL DB, Azure Datalake, Azure IOT Hub, Azure Event Hub, Azure DevOps, Azure Databricks, App Service, Web Service  
+➢ Math and Statistics: Linear Algebra, Statistics, Calculus  
+➢ Methodologies and Frameworks: Agile, Scrum, RUP, Kanban, Lean, DevOps, Test Driven Development  
 	
 # INTANGIBLES  
 Passionate, determined, self-motivated, adaptable to fast paced work environments, strong communication and presentation skills, highly collaborative, inquisitive/curious personality, disciplined, driven to learn, comfortable with ambiguity, and goal-oriented team player.  
