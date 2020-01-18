@@ -2,21 +2,21 @@ SUMMARY
 
 A senior business technology professional with expertise in engineering and supporting enterprise scale business systems.
 
-➢       Software Engineering – Methodical, detail-oriented approach to designing, building, and maintaining enterprise software systems. Expertise in iterative development methodologies
+➢     Software Engineering – Methodical, detail-oriented approach to designing, building, and maintaining enterprise software systems. Expertise in iterative development methodologies
 ➢     Business Analysis, Solution and Enterprise Architecture – Requirements gathering/analysis, process modeling, solution design, roadmaps, project scope definition, process modeling, functional design, full life cycle experience delivering variety of business applications, requirements traceability, use case centered requirements gathering, quality assurance and test driven development, non-functional solution requirements definition
-➢       Project and Program Management – Skilled project and program manager through all phases of the project lifecycle. Expertise in initiative execution using iterative/agile and waterfall methodologies. Expertise in Planning, Execution, Monitoring & Control and Closing, Risk management, Organizational Change Management, business case analysis, vendor and contract management, product selection, decision support/analysis,  and management of fixed price and time & materials projects/contracts
-➢      Management Consulting – Strategic planning and roadmaps, business transformation, change management, business case development, product development and management, negotiation, team alignment
+➢     Project and Program Management – Skilled project and program manager through all phases of the project lifecycle. Expertise in initiative execution using iterative/agile and waterfall methodologies. Expertise in Planning, Execution, Monitoring & Control and Closing, Risk management, Organizational Change Management, business case analysis, vendor and contract management, product selection, decision support/analysis,  and management of fixed price and time & materials projects/contracts
+➢     Management Consulting – Strategic planning and roadmaps, business transformation, change management, business case development, product development and management, negotiation, team alignment
 
 QUALIFICATIONS
-	Ø Bachelor of Science, Computer Science
-	Ø Master of Business Administration (Management Consulting)
-	Ø Certified Management Consultant (CMC)
-	Ø Project Management Professional (PMP)
-	Ø Agile Certified Practitioner (PMI-ACP)
+	- Bachelor of Science, Computer Science
+	- Master of Business Administration (Management Consulting)
+	- Certified Management Consultant (CMC)
+	- Project Management Professional (PMP)
+	- Agile Certified Practitioner (PMI-ACP)
 
 TECHNOLOGIES/SKILLS
-	Ø Programming languages: C, C++, C#, Java, Python, SQL
-	Ø Database: SQL Server, Oracle, HANA
+	- Programming languages: C, C++, C#, Java, Python, SQL
+	- Database: SQL Server, Oracle, HANA
 	Ø Development Tools: Visual Studio, Visual Studio Code, Eclipse, DevOps, TeamCity, Jenkins
 	Ø Project Tools: MS Project, Target Process, Trello
 	Ø Business Intelligence and Analytics: ETL, data warehouse design, reporting, KPI, metrics, visualization. Tableau, Spotfire, SSRS, Business Objects, Power BI, Excel
