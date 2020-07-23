@@ -1,0 +1,3 @@
+1,pressure sensor,pressure,1 minute
+2,temperature sensor,temperature,1 minute
+3,flow sensor,flowrate,1 minute

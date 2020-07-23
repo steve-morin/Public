@@ -1,0 +1,13 @@
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\bin\Debug\netcoreapp3.1\SynchronousSocketListener.exe
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\bin\Debug\netcoreapp3.1\SynchronousSocketListener.deps.json
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\bin\Debug\netcoreapp3.1\SynchronousSocketListener.runtimeconfig.json
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\bin\Debug\netcoreapp3.1\SynchronousSocketListener.runtimeconfig.dev.json
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\bin\Debug\netcoreapp3.1\SynchronousSocketListener.dll
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\bin\Debug\netcoreapp3.1\SynchronousSocketListener.pdb
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\obj\Debug\netcoreapp3.1\SynchronousSocketListener.csproj.CoreCompileInputs.cache
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\obj\Debug\netcoreapp3.1\SynchronousSocketListener.AssemblyInfoInputs.cache
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\obj\Debug\netcoreapp3.1\SynchronousSocketListener.AssemblyInfo.cs
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\obj\Debug\netcoreapp3.1\SynchronousSocketListener.dll
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\obj\Debug\netcoreapp3.1\SynchronousSocketListener.pdb
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\obj\Debug\netcoreapp3.1\SynchronousSocketListener.genruntimeconfig.cache
+C:\Users\morins\source\repos\SynchronousSocketListener\SynchronousSocketListener\obj\Debug\netcoreapp3.1\SynchronousSocketListener.csprojAssemblyReference.cache
