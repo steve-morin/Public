@@ -1,0 +1,13 @@
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\bin\Debug\netcoreapp3.1\SynchronousSocketClient.exe
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\bin\Debug\netcoreapp3.1\SynchronousSocketClient.deps.json
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\bin\Debug\netcoreapp3.1\SynchronousSocketClient.runtimeconfig.json
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\bin\Debug\netcoreapp3.1\SynchronousSocketClient.runtimeconfig.dev.json
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\bin\Debug\netcoreapp3.1\SynchronousSocketClient.dll
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\bin\Debug\netcoreapp3.1\SynchronousSocketClient.pdb
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\obj\Debug\netcoreapp3.1\SynchronousSocketClient.csprojAssemblyReference.cache
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\obj\Debug\netcoreapp3.1\SynchronousSocketClient.csproj.CoreCompileInputs.cache
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\obj\Debug\netcoreapp3.1\SynchronousSocketClient.AssemblyInfoInputs.cache
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\obj\Debug\netcoreapp3.1\SynchronousSocketClient.AssemblyInfo.cs
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\obj\Debug\netcoreapp3.1\SynchronousSocketClient.dll
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\obj\Debug\netcoreapp3.1\SynchronousSocketClient.pdb
+C:\Users\morins\source\repos\SynchronousSocketClient\SynchronousSocketClient\obj\Debug\netcoreapp3.1\SynchronousSocketClient.genruntimeconfig.cache
