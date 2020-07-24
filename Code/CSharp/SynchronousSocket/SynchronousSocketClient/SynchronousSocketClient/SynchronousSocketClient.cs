@@ -36,7 +36,7 @@ public class SynchronousSocketClient
                         sender.RemoteEndPoint.ToString());
 
                     // Encode the command string into a byte array
-                    byte[] msg = Encoding.ASCII.GetBytes("Send data<EOF>");
+                    byte[] msg = Encoding.ASCII.GetBytes("send all<EOF>");
 
                     // Send the data through the socket
                     int bytesSent = sender.Send(msg);
@@ -49,12 +49,29 @@ public class SynchronousSocketClient
                     {
                         // Receive the response from the remote device 
                         int bytesRec = sender.Receive(bytes);
-                        Console.WriteLine("Echoed test = {0}" + timeStamp,
-                        Encoding.ASCII.GetString(bytes, 0, bytesRec));
 
                         // get the string length
-                        string msgLen = Encoding.ASCII.GetString(bytes, 0, bytesRec);
-                        lengthReceived = msgLen.Length;
+                        string msgReceived = Encoding.ASCII.GetString(bytes, 0, bytesRec);
+                        lengthReceived = msgReceived.Length;
+
+                        if (lengthReceived > 0)
+                        {
+//                            Console.WriteLine("Echoed test = {0}", Encoding.ASCII.GetString(bytes, 0, bytesRec));
+                            int startIndex = msgReceived.IndexOf("<SOT>", 0) + 5;
+                            int strLength = msgReceived.IndexOf("<EOT>", 0) - startIndex;
+                            msgReceived = msgReceived.Substring(startIndex, strLength);
+                            Console.WriteLine("message:" + msgReceived);
+                            string [] strArray = msgReceived.Split("|");
+
+                            int id, dataQuality;
+                            double sensorData;
+                            DateTime dt;
+                            id = Int32.Parse(strArray[0]);
+                            dataQuality = Int32.Parse(strArray[3]);
+                            sensorData = Double.Parse(strArray[2]);
+                            dt = DateTime.Parse(strArray[1]);
+                        }
+
                     } while (lengthReceived > 0) ;
 
                     // Release the socket.  
