@@ -14,7 +14,8 @@ Modbus is a simple but powerful communications protocol that is still in widespr
 
 The following diagram depicts the flow of requests and responses from the master to the slave in Modbus:
 
-
+![enter image description here](./images/783px-Test-Logo.svg.png)
+https://github.com/steve-morin/Public/blob/master/Code/CSharp/SynchronousSocket/images/783px-Test-Logo.svg.png
 
 **How it works**
 
