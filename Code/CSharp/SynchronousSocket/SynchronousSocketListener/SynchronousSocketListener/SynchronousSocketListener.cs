@@ -9,7 +9,7 @@ public class SynchronousSocketListener
 {
 
     // Incoming command from the client
-    public static string command = null;
+    public static string request = null;
 
     static List<Sensor> sensors;
 
@@ -45,24 +45,24 @@ public class SynchronousSocketListener
                 Console.WriteLine("Waiting for a connection...");
                 // Program is suspended while waiting for an incoming connection
                 Socket handler = listener.Accept();
-                command = null;
+                request = null;
 
                 // An incoming connection needs to be processed
                 while (true)
                 {
                     int bytesRec = handler.Receive(bytes);
-                    command += Encoding.ASCII.GetString(bytes, 0, bytesRec);
-                    if (command.IndexOf("<EOF>") > -1)
+                    request += Encoding.ASCII.GetString(bytes, 0, bytesRec);
+                    if (request.IndexOf("<EOF>") > -1)
                     {
                         break;
                     }
                 }
 
                 // Show the command received from the client on the console
-                Console.WriteLine("Text received : {0}", command);
+                Console.WriteLine("Text received : {0}", request);
 
                 // Remove <EOF> from the message received
-                command = command.Replace("<EOF>","");
+                request = request.Replace("<EOF>","");
 
                 // create list of sensor data objects
                 var sensordata = new List<SensorData>();
@@ -74,7 +74,7 @@ public class SynchronousSocketListener
                 foreach (SensorData sensorMember in sensordata)
                 {
                     // encodes characters into a sequence of bytes
-                    byte[] msg = Encoding.ASCII.GetBytes(command + "|" + "Data: "+ sensorMember.Value +" ");
+                    byte[] msg = Encoding.ASCII.GetBytes("REQ:" + request + "<SOT>" + sensorMember.Id + '|' + sensorMember.Timestamp + '|' + sensorMember.Value + '|' + sensorMember.DataQuality + "<EOT>");
 
                     // Send the message
                     handler.Send(msg);
@@ -115,7 +115,7 @@ public class SynchronousSocketListener
 
         while ((line = file.ReadLine()) != null)
         {
-            System.Console.WriteLine(line);
+//            System.Console.WriteLine(line);
             counter++;
 
             // split line by commas
@@ -127,10 +127,12 @@ public class SynchronousSocketListener
 
             // Add sensor object to the list
             sensors.Add(new Sensor(id, desc, type, frequency));
+
         }
 
         file.Close();
-        System.Console.WriteLine("There were {0} lines.", counter);
+        //        System.Console.WriteLine("There were {0} lines.", counter);
+        System.Console.WriteLine("Initialization complete");
         return sensors;
     }
 
@@ -143,7 +145,7 @@ public class SynchronousSocketListener
         {
             Random value = new Random();
             double curVal = value.Next(0, 100);
-            sensordata.Add(new SensorData(1, DateTime.Now , curVal, 1));            
+            sensordata.Add(new SensorData(sensor.Id, DateTime.Now , curVal, 1));            
         }
 
         return sensordata;
