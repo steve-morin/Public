@@ -18,13 +18,5 @@ using System.Text;
         Frequency = frequency;
     }
 
-    public List<SensorData> GenerateData()
-    {
-        var sensordata = new List<SensorData>();
-
-        return sensordata;
-
-    }
-
 }
 
