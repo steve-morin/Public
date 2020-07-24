@@ -13,9 +13,15 @@ Modbus is often used to connect a plant/system supervisory computer with a [remo
 Modbus is a simple but powerful communications protocol that is still in widespread use today.
 
 The following diagram depicts the flow of requests and responses from the master to the slave in Modbus:
+![enter image description here](./images/image1.png)
 
-![enter image description here](./images/783px-Test-Logo.svg.png)
-https://github.com/steve-morin/Public/blob/master/Code/CSharp/SynchronousSocket/images/783px-Test-Logo.svg.png
+This diagram shows an example of the network topology for how Modbus is deployed:
+![enter image description here](./images/image2.png)
+
+This diagram shows the context of how Modbus is used to communicate with PLCs, sensors, pumps, valves, etc.:
+![enter image description here](./images/image3.png)
+
+
 
 **How it works**
 
