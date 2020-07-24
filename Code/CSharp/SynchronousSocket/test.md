@@ -28,7 +28,8 @@ This diagram shows the context of how Modbus is used to communicate with PLCs, s
 This example is built with a synchronous socket. As a result, the server application will be suspended until a client connects to it. When the application is first started, it will open the sensor configuration file and read in configuration for each sensor. This is only done once per execution and the configuration is stored in a list of SensorConfig objects. Next the server will create a socket and listen for connection requests. The client program connects to the server and sends requests (in this case it plays the master role). It also uses a synchronous socket which results in the client application being suspended until the server provides a response.
 
 Once a connection is made, the server application receives a command from the client, and then responds with the requested data. Note, that I had intended to build functionality to ‘Send All’ data or query for data only from a specific sensor. I have only coded the ‘Send All’ functionality so far, however it would be straightforward to add the query by sensor id functionality. The message is encoded with an <SOT> (short for ‘Start of Transmission’) string to indicate the beginning of the message and <EOT> (short for ‘End of Transmission’). In contrast, the Modbus ASCII is shown below:
-![enter image description here](./images/image4.png)
+  
+![enter image description here](./images/image4.PNG)
 
 Most low level communication schemes also include error checksums (or [CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)). We had the opportunity to implement CRC as part of our undergrad Computer Science networking course, the simple elegance and power of this algorithm is impressive. Of course, the TCP/IP stack detects and recovers errors, so CRC is not needed for this example.
 
