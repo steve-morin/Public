@@ -31,6 +31,6 @@ Once a connection is made, the server application receives a command from the cl
   
 ![enter image description here](./images/image4.PNG)
 
-Most low level communication schemes also include error checksums (or [CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)). We had the opportunity to implement CRC as part of our undergrad Computer Science networking course, the simple elegance and power of this algorithm is impressive. Of course, the TCP/IP stack detects and recovers errors, so CRC is not needed for this example.
+Low level communication schemes such as this typically include error checksums (or [CRC](https://en.wikipedia.org/wiki/Cyclic_redundancy_check)). We had the opportunity to implement CRC as part of our undergrad Computer Science networking course, the simple elegance and power of this algorithm is impressive. Of course, the TCP/IP stack detects and recovers errors, so CRC is not needed for this example.
 
 For simplicity, the server generates random data between 0 and 100. Originally, I had considered coding functions to generate data that more closely resembles sensor output for liquids and gas pipelines but I will leave this as a future to-do… for now 😊
