@@ -1,1 +1,0 @@
-Hadoop related programming
