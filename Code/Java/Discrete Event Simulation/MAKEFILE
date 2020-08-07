@@ -1,0 +1,31 @@
+# Makefile for Java
+
+# Class Path, where it should load classes from, needs your directory
+# and probably the System class directory also
+#CLASSPATH = ..:.:/usr/local/java/classes/
+
+# Compiler can be javac or javac_g for debuggers like jdb
+JAVAC = /usr/java/bin/javac 
+
+
+# JAVA Compiler Flags
+JFLAGS = -g
+
+KERNEL=ATM.java XLP.java Cell.java PLP.java YLP.java 
+
+
+JAVA_SOURCES = $(KERNEL) 
+
+JAVA_OBJS =  ${JAVA_SOURCES:.java=.class}
+
+# Default rule for compiling Java programs on the SGI
+.SUFFIXES: 	.java .class
+.java.class: 
+	$(JAVAC) $(JFLAGS) $<
+
+default: $(JAVA_OBJS)
+	@echo " Done Compiling $(JAVA_SOURCES) into $(JAVA_OBJS)\n";
+
+
+clean: 
+	rm *.class;
