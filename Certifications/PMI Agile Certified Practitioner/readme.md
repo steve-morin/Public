@@ -12,6 +12,6 @@ of organizations that rely on project practitioners to apply a diversity of meth
 management.
 
 **PMI-ACP Eligibility Requirements**
-* Work Experience: 12 months working on project teams This experience must have been earned in the last 5 years
+* Educational Background: Bachelors degree
 * Agile Project Experience: 8 months
-* Agile Training: 21 hours
+* Agile Training: 35 hours
