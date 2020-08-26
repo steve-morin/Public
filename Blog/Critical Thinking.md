@@ -1,9 +1,9 @@
-**Title: Your Ability to Think Critically is Your Most Important Career Skill**
+**Title: Critical Thinking is Your Most Important Career Skill**
 
 
 **Why you need Critical Thinking**
   
-Your ability to think critically is the most important career skill and it's what every employer looks for. It is the most important skillset and is needed by professionals so that they can deliver on their commitments and obligations. It has been described by some as logical self-defense, it gives you the tools to consider and assess information in order to make a judgement. In the era of information overload and constant influx of sophisticated marketing and influencing campaigns, critical thinking is also a survival skill for navigating your everyday life.
+Your ability to think critically is the most important career skill and it's what every employer looks for. It is 'the' most important skillset and is needed by professionals so that they can deliver on their commitments and obligations. It has been described by some as logical self-defense, it gives you the tools to consider and assess information in order to make a judgement. In the era of information overload and constant influx of sophisticated marketing and influencing campaigns, critical thinking is also a survival skill for navigating your everyday life.
 
 It is the ability to think in an organized and rational way to discern how facts or ideas are linked together, allowing you to make sense of what's in front of you. When you think critically, you’ll constantly challenge what seems given. Critical thinking helps you to identify new, better processes and solutions. Critical thinking skills are also the cornerstone of self-development and improvement. That’s why they’re so critical to have in today’s job market.
 	 
